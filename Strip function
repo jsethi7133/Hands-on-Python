@@ -1,0 +1,3 @@
+x=" Hello Python !! "
+print(x)
+print(x.strip())  #used to remove white spaces from beginning and end
