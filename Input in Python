@@ -1,0 +1,5 @@
+print("Enter fname")
+fname=input()
+print("Enter lname")
+lname=input()
+print(fname+" "+lname)
