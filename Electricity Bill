@@ -1,0 +1,16 @@
+# Program to generate electricity bill
+
+print("Please enter your name")
+name=input()
+print("Customer id:")
+id=int(input())
+print("Units consumed:")
+unit=int(input())
+if unit<=199:
+    print(unit*1.20)
+elif(unit>200 and unit<400):
+    print(unit*1.50)
+elif(unit>400 and unit<600):
+    print(unit*1.80)
+else:
+    print(unit*2.10)
