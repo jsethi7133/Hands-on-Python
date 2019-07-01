@@ -1,0 +1,10 @@
+# Program to accept height in cm and categorize it
+
+print("Please enter your height in cm.")
+h=int(input())
+if h<150:
+    print("Dwarf")
+elif h>160:
+    print("Tall")
+else:
+    print("Average")
