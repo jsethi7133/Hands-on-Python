@@ -1,0 +1,11 @@
+# Program to calculate profit and loss of a transaction
+
+print("Enter cost price")
+cp=float(input())
+print("Enter selling price")
+sp=float(input())
+s=sp-cp
+if s>0:
+    print("Rs.",s," Profit")
+else:    
+    print("Rs.",abs(s)," Loss")
