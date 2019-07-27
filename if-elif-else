@@ -1,0 +1,15 @@
+print("What is your grade??")
+grade=input()
+grade=grade.upper()
+if grade=='A':
+    print("Excellent.")
+elif grade=='B':
+    print("Very Good.")
+elif grade=='C':
+    print("Good.")
+elif grade=='D':
+    print("Average.")
+elif grade=='E':
+    print("Fail.")  
+else:
+    print("No such grade.")
