@@ -1,0 +1,11 @@
+# Program to find eligibilty for admissions
+print("Enter marks in maths")
+maths=int(input())
+print("Enter marks in physics")
+phy=int(input())
+print("Enter marks in chemistry")
+chem=int(input())
+if(maths>=65 and chem>=50 and phy>=55):
+    print("Congratulations, you are eligible for the admission.")
+else:
+    print("Sorry, you are not eligible for admission.")
